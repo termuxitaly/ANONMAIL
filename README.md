@@ -1,15 +1,40 @@
 # 🌐 ANONMAIL SENDER
-🔲 pkg install git && pkg install python
 
-🔲 pkg update && pkg upgrade
+- [ ] [Install Git and Python](#)  
+  
+sh
+  pkg install git && pkg install python
+ 
 
-🔲 git clone https://github.com/termuxitaly/ANONMAIL
-🔲 cd ANONMAIL
+- [ ] [Update and upgrade packages](#)  
+  
+sh
+  pkg update && pkg upgrade
+ 
 
-🔲 pip install -r requirements.txt
+- [ ] [Clone the repository](https://github.com/termuxitaly/ANONMAIL)  
+  
+sh
+  git clone https://github.com/termuxitaly/ANONMAIL && cd ANONMAIL
+ 
 
-🔲 chmod +x anonsender.pyc
+- [ ] [Install requirements](#)  
+  
+sh
+  pip install -r requirements.txt
+ 
 
-🔲 python anonsender.pyc
+- [ ] [Make the script executable](#)  
+  
+sh
+  chmod +x anonsender.pyc
+ 
+
+- [ ] [Run the script](#)  
+  
+sh
+  python anonsender.pyc
+  ```
+```
 
 # 🥷 questo script fornisce un'interfaccia intuitiva per configurare, gestire e inviare email in modo anonimo utilizzando un server SMTP specificato e personalizzato, con supporto per allegati e opzioni avanzate di formattazione del messaggio.
